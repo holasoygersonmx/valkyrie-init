@@ -1,0 +1,7 @@
+
+#home,
+#home > div.owl-carousel,
+#home > div.owl-carousel div.item,
+#map {
+    height: 100vh;
+}
