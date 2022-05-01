@@ -31,6 +31,15 @@ class Configuration
 	public static $web_page = 'My website.';
 
 	/**
+     * Descripción del sitio web.
+	 *
+	 * @static
+	 *
+     * @var string $web_description
+     */
+	public static $web_description = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo.';
+
+	/**
      * Idioma por default
 	 * @example es, en, fr, ru..
 	 *
