@@ -1,5 +1,8 @@
 <?php defined('_EXEC') or die; ?>
 
+        <section data-ajax-loader>
+            <div></div>
+        </section>
         <footer class="p-tb-50">
             <div class="container">
                 <div class="row">

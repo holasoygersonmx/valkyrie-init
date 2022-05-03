@@ -32,13 +32,13 @@
 					<div class="col-10" data-desktop>
 						<nav>
 							<ul class="d-flex align-items-center justify-content-end list-unstyled">
-								<li><a href="#home">{$lang.home}</a></li>
-								<li class="m-l-20"><a href="#contact_us">{$lang.contact_us}</a></li>
-								<li class="m-l-20"><a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
-								<li class="m-l-20"><a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-								<li class="m-l-20"><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-								<li class="m-l-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
-								<li class="m-l-20"><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li>
+								<li class="m-r-20"><a href="#home">{$lang.home}</a></li>
+								<li class="m-r-20"><a href="#contact_us">{$lang.contact_us}</a></li>
+								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+								<li class="m-r-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
+								<li><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li>
 							</ul>
 						</nav>
 					</div>
