@@ -24,8 +24,8 @@
 					<div class="col-4 col-md-2">
 						<figure>
 							<a href="/">
-								<img src="{$path.images}logotype_white.png" class="img-fluid" alt="Logotype">
-								<img src="{$path.images}logotype_black.png" class="d-none img-fluid" alt="Logotype">
+								<img src="{$path.images}logotype_white.png" alt="Logotype" class="img-fluid">
+								<img src="{$path.images}logotype_black.png" alt="Logotype" class="d-none img-fluid">
 							</a>
 						</figure>
 					</div>
@@ -55,9 +55,9 @@
 					<li class="m-b-20"><a href="#home">{$lang.home}</a></li>
 					<li class="m-b-20"><a href="#contact_us">{$lang.contact_us}</a></li>
 					<li class="m-b-20">
-						<a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" class="m-lr-10" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-						<a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" class="m-lr-10" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-						<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" class="m-lr-10" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+						<a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-facebook-square"></i></a>
+						<a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-instagram"></i></a>
+						<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-whatsapp"></i></a>
 					</li>
 					<li class="m-b-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
 					<li><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li>
