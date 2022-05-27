@@ -20,7 +20,7 @@
 	<body class="pos-relative">
 		<header id="desktop_menu" class="pos-fixed p-tb-20">
 			<div class="container">
-				<div class="row d-flex align-items-center">
+				<div class="row">
 					<div class="col-4 col-md-2">
 						<figure>
 							<a href="/">
@@ -42,8 +42,12 @@
 							</ul>
 						</nav>
 					</div>
-					<div class="col-8 text-right" data-mobile-block>
-						<a data-action="open_mobile_menu"><i class="fas fa-bars"></i></a>
+					<div class="col-8" data-mobile-block>
+						<nav>
+							<ul class="d-flex align-items-center justify-content-end list-unstyled">
+								<li><a data-action="open_mobile_menu"><i class="fas fa-bars"></i></a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 			</div>
@@ -55,12 +59,14 @@
 					<li class="m-b-20"><a href="#home">{$lang.home}</a></li>
 					<li class="m-b-20"><a href="#contact_us">{$lang.contact_us}</a></li>
 					<li class="m-b-20">
-						<a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-facebook-square"></i></a>
+						<a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank" class="m-r-10"><i class="fa-brands fa-facebook-square"></i></a>
 						<a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-instagram"></i></a>
-						<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-whatsapp"></i></a>
+						<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="m-l-10"><i class="fa-brands fa-whatsapp"></i></a>
 					</li>
-					<li class="m-b-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
-					<li><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li>
+					<li>
+						<a href="?lang=es" class="m-r-10"><img src="{$path.images}mex.png" alt="ES Lang"></a>
+						<a href="?lang=en" class="m-l-10"><img src="{$path.images}usa.png" alt="EN Lang"></a>
+					</li>
 				</ul>
 			</nav>
 		</header>
