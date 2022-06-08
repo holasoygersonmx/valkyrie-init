@@ -27,13 +27,20 @@ a, button {
     font-size: 16px;
 }
 
-.fgr-cover {
+.fgr-cover,
+.fgr-fluid {
     width: 100%;
     overflow: hidden;
 }
 
+.fgr-fluid > img {
+    width: auto !important;
+}
+
 .container,
-.fgr-cover {
+.fgr-cover,
+.fgr-fluid,
+.fgr-fluid > img {
     height: 100%;
 }
 
