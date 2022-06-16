@@ -281,15 +281,6 @@ class Configuration
 	public static $smtp_port = 25;
 
 	/**
-     * Correo electrónico de emailing.
-	 *
-	 * @static
-	 *
-     * @var integer $smtp_emailer
-     */
-	public static $smtp_emailer = 'noreply@mywebsite.com';
-
-	/**
      * Variables generales.
 	 *
 	 * @static
@@ -319,6 +310,7 @@ class Configuration
 		'map' => [
 			'lat' => '21.1557389',
 			'lng' => '-86.8216006'
-		]
+		],
+		'emailer' => 'noreply@mywebsite.com'
 	];
 }

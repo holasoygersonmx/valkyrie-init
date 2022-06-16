@@ -35,7 +35,7 @@ class Index_controller extends Controller
 
 					try
 					{
-						$mail->setFrom(Configuration::$smtp_emailer, Configuration::$web_page);
+						$mail->setFrom(Configuration::$vars['emailer'], Configuration::$web_page);
 						$mail->addAddress(Configuration::$vars['contact']['email'], Configuration::$web_page);
 						$mail->Subject = 'Nuevo contacto. ' .  $_POST['fullname'];
 						$mail->Body =
