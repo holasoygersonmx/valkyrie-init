@@ -14,7 +14,7 @@ $(document).ready(function()
         dots: false
     });
 
-    $('form[name="contact_us"]').on('submit', function(e)
+    $('form[name="contact"]').on('submit', function(e)
     {
         e.preventDefault();
 
@@ -22,7 +22,7 @@ $(document).ready(function()
 
         $.ajax({
             type: 'POST',
-            data: form.serialize() + '&action=contact_us',
+            data: form.serialize() + '&action=contact',
             processData: false,
             cache: false,
             dataType: 'json',

@@ -13,7 +13,7 @@ class Index_controller extends Controller
 	{
 		if (Format::exist_ajax_request() == true)
 		{
-			if ($_POST['action'] == 'contact_us')
+			if ($_POST['action'] == 'contact')
 			{
 				$errors = [];
 
@@ -49,7 +49,7 @@ class Index_controller extends Controller
 
 					echo json_encode([
 						'status' => 'success',
-						'message' => '{$lang.thanks_for_contact_us}'
+						'message' => '{$lang.thanks_for_contact}'
 					]);
 				}
 				else

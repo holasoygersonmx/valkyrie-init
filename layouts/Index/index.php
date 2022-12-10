@@ -12,20 +12,20 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section id="home">
-        <div class="owl-carousel owl-theme">
-            <div class="item" style="background-color:#E91E63;"></div>
-            <div class="item" style="background-color:#ec407a;"></div>
-            <div class="item" style="background-color:#9c27b0;"></div>
-            <div class="item" style="background-color:#ab47bc;"></div>
-            <div class="item" style="background-color:#673ab7;"></div>
-            <div class="item" style="background-color:#7e57c2;"></div>
+    <section id="home" class="hgt-vh-100">
+        <div class="owl-carousel owl-theme hgt-vh-100">
+            <div class="item hgt-vh-100" style="background-color:#E91E63;"></div>
+            <div class="item hgt-vh-100" style="background-color:#ec407a;"></div>
+            <div class="item hgt-vh-100" style="background-color:#9c27b0;"></div>
+            <div class="item hgt-vh-100" style="background-color:#ab47bc;"></div>
+            <div class="item hgt-vh-100" style="background-color:#673ab7;"></div>
+            <div class="item hgt-vh-100" style="background-color:#7e57c2;"></div>
         </div>
     </section>
-    <section id="map" data-title="<?php echo Configuration::$web_page; ?>" data-lat="<?php echo Configuration::$vars['map']['lat']; ?>" data-lng="<?php echo Configuration::$vars['map']['lng']; ?>" data-zoom="18"></section>
-    <section id="contact_us" class="p-t-50">
+    <section id="map" class="hgt-vh-100" data-title="<?php echo Configuration::$web_page; ?>" data-lat="<?php echo Configuration::$vars['map']['lat']; ?>" data-lng="<?php echo Configuration::$vars['map']['lng']; ?>" data-zoom="18"></section>
+    <section id="contact" class="p-t-50">
         <div class="container">
-            <form name="contact_us">
+            <form name="contact">
                 <div class="row">
                     <div class="col-12 m-b-md-20">
                         <div class="label">
@@ -60,7 +60,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                         </div>
                     </div>
                     <div class="col-12 text-right">
-                        <button type="submit" class="btn">{$lang.contact_us}</button>
+                        <button type="submit" class="btn">{$lang.contact}</button>
                     </div>
                 </div>
             </form>
