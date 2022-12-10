@@ -1,4 +1,9 @@
 
+/* @font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+} */
+
 body,
 h1, h2, h3, h4, h5, h6,
 p,
@@ -27,20 +32,7 @@ a, button {
     font-size: 16px;
 }
 
-.fgr-cover,
-.fgr-fluid {
-    width: 100%;
-    overflow: hidden;
-}
-
-.fgr-fluid > img {
-    width: auto !important;
-}
-
-.container,
-.fgr-cover,
-.fgr-fluid,
-.fgr-fluid > img {
+.container {
     height: 100%;
 }
 
@@ -58,39 +50,61 @@ a, button {
     padding-right: 10px;
 }
 
+.hgt-vh-100 {
+    width: 100%;
+    height: 100vh;
+}
+
+.fgr-w-cover,
+.fgr-wh-cover,
+.fgr-h-cover,
+.fgr-hw-cover {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.fgr-w-fluid,
+.fgr-wh-fluid,
+.fgr-w-cover > img,
+.fgr-wh-cover > img,
+.fgr-w-fluid > img,
+.fgr-wh-fluid > img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.fgr-h-fluid,
+.fgr-hw-fluid,
+.fgr-h-cover > img,
+.fgr-hw-cover > img,
+.fgr-h-fluid > img,
+.fgr-hw-fluid > img {
+    width: auto !important;
+    height: 100% !important;
+}
+
+.fgr-w-cover,
+.fgr-wh-cover,
+.fgr-w-cover > img,
+.fgr-wh-cover > img,
+.fgr-h-cover,
+.fgr-hw-cover,
+.fgr-h-cover > img,
+.fgr-hw-cover > img,
+.fgr-w-fluid,
+.fgr-wh-fluid,
+.fgr-w-fluid > img,
+.fgr-wh-fluid > img,
+.fgr-h-fluid,
+.fgr-hw-fluid,
+.fgr-h-fluid > img,
+.fgr-hw-fluid > img {
+    overflow: hidden !important;
+}
+
 [data-mobile-block],
 [data-mobile-flex] {
     display: none !important;
-}
-
-@media (max-width: 768px) {
-
-    .container.full {
-        width: 100%;
-        margin: 0px;
-        padding: 0px !important;
-    }
-
-    .col, .col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
-    .col-sm, .col-sm-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
-    .col-md, .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
-    .col-lg, .col-lg-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
-    .col-xl, .col-xl-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    [data-desktop] {
-        display: none !important;
-    }
-    
-    [data-mobile-block] {
-        display: block !important;
-    }
-    
-    [data-mobile-flex] {
-        display: flex !important;
-    }
 }
 
 [data-ajax-loader] {
@@ -160,7 +174,49 @@ a, button {
     }
 }
 
-/*  */
+@media (max-width: 768px) {
+
+    .container.full {
+        width: 100%;
+        margin: 0px;
+        padding: 0px !important;
+    }
+
+    .col, .col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+    .col-sm, .col-sm-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+    .col-md, .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+    .col-lg, .col-lg-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+    .col-xl, .col-xl-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .fgr-wh-fluid,
+    .fgr-wh-cover > img,
+    .fgr-wh-fluid > img {
+        width: auto !important;
+        height: 100% !important;
+    }
+
+    .fgr-hw-fluid,
+    .fgr-hw-cover > img,
+    .fgr-hw-fluid > img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    [data-desktop] {
+        display: none !important;
+    }
+    
+    [data-mobile-block] {
+        display: block !important;
+    }
+    
+    [data-mobile-flex] {
+        display: flex !important;
+    }
+}
 
 #desktop_menu {
     width: 100%;
@@ -195,8 +251,6 @@ a, button {
     right: 20px;
 }
 
-/*  */
-
 #desktop_menu.down {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
@@ -210,8 +264,6 @@ a, button {
 #desktop_menu.down > div > div > div > figure > a > img:last-child {
     display: block !important;
 }
-
-/*  */
 
 @media (max-width: 768px) {
 
