@@ -11,7 +11,12 @@ $(document).ready(function()
         loop: true,
         margin: 0,
         nav: false,
-        dots: false
+        dots: false,
+        responsive: {
+            768: {
+                items: 1
+            }
+        }
     });
 
     $('form[name="contact"]').on('submit', function(e)
