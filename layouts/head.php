@@ -52,7 +52,7 @@
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" class="hth-vh pos-fixed d-flex align-items-center justify-content-center p-20" data-mobile-flex>
+		<header id="mobile_menu" class="hth-100vh pos-fixed d-flex align-items-center justify-content-center p-20" data-mobile-flex>
 			<a data-action="close_mobile_menu" class="pos-absolute"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">

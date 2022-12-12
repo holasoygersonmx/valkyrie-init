@@ -12,17 +12,17 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section id="home" class="hth-vh">
-        <div class="owl-carousel owl-theme hth-vh">
-            <div class="item hth-vh" style="background-color:#E91E63;"></div>
-            <div class="item hth-vh" style="background-color:#ec407a;"></div>
-            <div class="item hth-vh" style="background-color:#9c27b0;"></div>
-            <div class="item hth-vh" style="background-color:#ab47bc;"></div>
-            <div class="item hth-vh" style="background-color:#673ab7;"></div>
-            <div class="item hth-vh" style="background-color:#7e57c2;"></div>
+    <section id="home" class="hth-100vh">
+        <div class="owl-carousel owl-theme hth-100vh">
+            <div class="item hth-100vh" style="background-color:#E91E63;"></div>
+            <div class="item hth-100vh" style="background-color:#ec407a;"></div>
+            <div class="item hth-100vh" style="background-color:#9c27b0;"></div>
+            <div class="item hth-100vh" style="background-color:#ab47bc;"></div>
+            <div class="item hth-100vh" style="background-color:#673ab7;"></div>
+            <div class="item hth-100vh" style="background-color:#7e57c2;"></div>
         </div>
     </section>
-    <section id="map" class="hth-vh" data-title="<?php echo Configuration::$web_page; ?>" data-lat="<?php echo Configuration::$vars['map']['lat']; ?>" data-lng="<?php echo Configuration::$vars['map']['lng']; ?>" data-zoom="18"></section>
+    <section id="map" class="hth-100vh" data-title="<?php echo Configuration::$web_page; ?>" data-lat="<?php echo Configuration::$vars['map']['lat']; ?>" data-lng="<?php echo Configuration::$vars['map']['lng']; ?>" data-zoom="18"></section>
     <section id="contact" class="p-t-50">
         <div class="container">
             <form name="contact">
@@ -60,7 +60,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                         </div>
                     </div>
                     <div class="col-12 text-right">
-                        <button type="submit" class="btn">{$lang.contact}</button>
+                        <button type="submit" class="btn btn-primary">{$lang.contact}</button>
                     </div>
                 </div>
             </form>
