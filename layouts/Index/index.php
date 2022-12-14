@@ -30,7 +30,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <div class="col-12 m-b-md-20">
                         <div class="label">
                             <label>
-                                <h6>{$lang.fullname}</h6>
+                                <h6 class="m-b-5">{$lang.fullname}</h6>
                                 <input type="text" name="fulname">
                             </label>
                         </div>
@@ -38,7 +38,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <div class="col-12 col-md-6 m-b-md-20">
                         <div class="label">
                             <label>
-                                <h6>{$lang.email}</h6>
+                                <h6 class="m-b-5">{$lang.email}</h6>
                                 <input type="email" name="email">
                             </label>
                         </div>
@@ -46,7 +46,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <div class="col-12 col-md-6 m-b-md-20">
                         <div class="label">
                             <label>
-                                <h6>{$lang.phone}</h6>
+                                <h6 class="m-b-5">{$lang.phone}</h6>
                                 <input type="text" name="phone">
                             </label>
                         </div>
@@ -54,7 +54,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                     <div class="col-12 m-b-20">
                         <div class="label">
                             <label>
-                                <h6>{$lang.message}</h6>
+                                <h6 class="m-b-5">{$lang.message}</h6>
                                 <textarea name="message"></textarea>
                             </label>
                         </div>

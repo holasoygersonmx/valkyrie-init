@@ -1,9 +1,4 @@
 
-/* @font-face {
-    font-family: 'Poppins-Regular';
-    src: url("../fonts/Poppins/Poppins-Regular.ttf");
-} */
-
 body,
 h1, h2, h3, h4, h5, h6,
 p,
@@ -50,6 +45,32 @@ figure {
     padding-right: 10px;
 }
 
+.p-t-100 {
+    padding-top: 100px !important;
+}
+
+.p-b-100 {
+    padding-bottom: 100px !important;
+}
+
+.p-tb-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.m-t-100 {
+    margin-top: 100px !important;
+}
+
+.m-b-100 {
+    margin-bottom: 100px !important;
+}
+
+.m-tb-100 {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
 .wth-100 {
     width: 100%;
     height: auto;
@@ -93,9 +114,13 @@ figure {
 .fgr-w-fluid,
 .fgr-wh-fluid,
 .fgr-w-cover > img,
+.fgr-w-cover > a > img,
 .fgr-wh-cover > img,
+.fgr-wh-cover > a > img,
 .fgr-w-fluid > img,
-.fgr-wh-fluid > img {
+.fgr-w-fluid > a > img,
+.fgr-wh-fluid > img
+.fgr-wh-fluid > a > img {
     width: 100%;
     height: auto;
 }
@@ -103,9 +128,13 @@ figure {
 .fgr-h-fluid,
 .fgr-hw-fluid,
 .fgr-h-cover > img,
+.fgr-h-cover > a > img,
 .fgr-hw-cover > img,
+.fgr-hw-cover > a > img,
 .fgr-h-fluid > img,
-.fgr-hw-fluid > img {
+.fgr-h-fluid > a > img,
+.fgr-hw-fluid > img
+.fgr-hw-fluid > a > img {
     width: auto;
     height: 100%;
 }
@@ -113,20 +142,32 @@ figure {
 .fgr-w-cover,
 .fgr-wh-cover,
 .fgr-w-cover > img,
+.fgr-w-cover > a > img,
 .fgr-wh-cover > img,
+.fgr-wh-cover > a > img,
 .fgr-h-cover,
 .fgr-hw-cover,
 .fgr-h-cover > img,
+.fgr-h-cover > a > img,
 .fgr-hw-cover > img,
+.fgr-hw-cover > a > img,
 .fgr-w-fluid,
 .fgr-wh-fluid,
 .fgr-w-fluid > img,
+.fgr-w-fluid > a > img,
 .fgr-wh-fluid > img,
+.fgr-wh-fluid > a > img,
 .fgr-h-fluid,
 .fgr-hw-fluid,
 .fgr-h-fluid > img,
-.fgr-hw-fluid > img {
+.fgr-h-fluid > a > img,
+.fgr-hw-fluid > img,
+.fgr-hw-fluid > a > img {
     overflow: hidden;
+}
+
+.fgr-not-ofw {
+    overflow: visible !important;
 }
 
 .brd-rad-20 {
@@ -219,6 +260,35 @@ figure {
     }
 }
 
+@media (min-width: 768px) {
+
+    .p-t-md-100 {
+        padding-top: 100px !important;
+    }
+
+    .p-b-md-100 {
+        padding-bottom: 100px !important;
+    }
+
+    .p-tb-md-100 {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .m-t-md-100 {
+        margin-top: 100px !important;
+    }
+
+    .m-b-md-100 {
+        margin-bottom: 100px !important;
+    }
+
+    .m-tb-md-100 {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
 @media (max-width: 768px) {
 
     .container.ctr-md-full {
@@ -266,6 +336,15 @@ figure {
         display: flex !important;
     }
 }
+
+/* My fonts */
+
+/* @font-face {
+    font-family: 'NewYork';
+    src: url("../fonts/Poppins/NewYork.ttf");
+} */
+
+/* My styles */
 
 #desktop_menu {
     transition: 800ms;
