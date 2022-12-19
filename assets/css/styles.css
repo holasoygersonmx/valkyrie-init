@@ -15,7 +15,13 @@ a {
 
 a, button {
     text-decoration: none !important;
-    cursor: pointer;
+    cursor: pointer !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+p,
+a, button {
+    font-family: 'Roboto-Regular';
 }
 
 p,
@@ -339,10 +345,10 @@ figure {
 
 /* My fonts */
 
-/* @font-face {
-    font-family: 'NewYork';
-    src: url("../fonts/Poppins/NewYork.ttf");
-} */
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
 
 /* My styles */
 
