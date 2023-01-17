@@ -9,29 +9,16 @@ a, button {
     padding: 0px;
 }
 
-a {
-    color: #0a1832;
-}
-
 a, button {
     text-decoration: none !important;
     cursor: pointer !important;
 }
 
-h1, h2, h3, h4, h5, h6,
-p,
-a, button {
-    font-family: 'Roboto-Regular';
-}
-
-p,
-a, button {
-    font-size: 16px;
-}
-
 figure {
     line-height: 0px;
 }
+
+/* Containers, rows and cols */
 
 .container.ctr-hgt-100 {
     height: 100%;
@@ -42,6 +29,19 @@ figure {
     color: #fff !important;
 }
 
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.row.no-perimeter > [class*="col-"]:first-child {
+    padding-left: 0px !important;
+}
+
+.row.no-perimeter > [class*="col-"]:last-child {
+    padding-right: 0px !important;
+}
+
 .col, .col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
 .col-sm, .col-sm-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
 .col-md, .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
@@ -50,6 +50,26 @@ figure {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+@media (max-width: 768px) {
+
+    .container.ctr-md-full {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .col, .col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+    .col-sm, .col-sm-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
+    .col-md, .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+    .col-lg, .col-lg-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
+    .col-xl, .col-xl-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* Paddings and margins */
 
 .p-t-100 {
     padding-top: 100px !important;
@@ -77,6 +97,37 @@ figure {
     margin-bottom: 100px !important;
 }
 
+@media (min-width: 768px) {
+
+    .p-t-md-100 {
+        padding-top: 100px !important;
+    }
+
+    .p-b-md-100 {
+        padding-bottom: 100px !important;
+    }
+
+    .p-tb-md-100 {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .m-t-md-100 {
+        margin-top: 100px !important;
+    }
+
+    .m-b-md-100 {
+        margin-bottom: 100px !important;
+    }
+
+    .m-tb-md-100 {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
+/* Withs and heights */
+
 .wth-100 {
     width: 100%;
     height: auto;
@@ -100,13 +151,6 @@ figure {
 .wth-100-hth-100vh {
     width: 100%;
     height: 100vh;
-}
-
-.pos-abt-full {
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
 }
 
 .fgr-w-cover,
@@ -176,6 +220,64 @@ figure {
     overflow: visible !important;
 }
 
+@media (max-width: 768px) {
+
+    .hth-md-auto {
+        height: auto !important;
+    }
+
+    .fgr-wh-fluid,
+    .fgr-wh-cover > img,
+    .fgr-wh-fluid > img {
+        width: auto;
+        height: 100%;
+    }
+
+    .fgr-hw-fluid,
+    .fgr-hw-cover > img,
+    .fgr-hw-fluid > img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Positions */
+
+.pos-abt-full {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.pos-ovr-hidden {
+    overflow: hidden;
+}
+
+/* Overlays */
+
+.oly-99 {
+    z-index: 99;
+}
+
+.oly-98 {
+    z-index: 98;
+}
+
+.oly-97 {
+    z-index: 97;
+}
+
+.oly-96 {
+    z-index: 96;
+}
+
+.oly-95 {
+    z-index: 95;
+}
+
+/* Borders */
+
 .brd-rad-20 {
     border-radius: 20px;
 }
@@ -192,10 +294,59 @@ figure {
     border-radius: 5px;
 }
 
+/* Fonts and texts */
+
+.font-size-10 {
+    font-size: 10px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+/* Inputs and selects */
+
+.label > label.error > h6 {
+    color: #f44336 !important;
+}
+
+.label > label.error > p {
+    margin-top: 5px !important;
+    padding: 0px !important;
+    font-size: 10px !important;
+}
+
+/* Hidden on desktop and mobile */
+
 [data-mobile-block],
 [data-mobile-flex] {
     display: none !important;
 }
+
+@media (max-width: 768px) {
+
+    [data-desktop] {
+        display: none !important;
+    }
+    
+    [data-mobile-block] {
+        display: block !important;
+    }
+    
+    [data-mobile-flex] {
+        display: flex !important;
+    }
+}
+
+/* Loader */
 
 [data-ajax-loader] {
     top: 0px;
@@ -266,83 +417,6 @@ figure {
     }
 }
 
-@media (min-width: 768px) {
-
-    .p-t-md-100 {
-        padding-top: 100px !important;
-    }
-
-    .p-b-md-100 {
-        padding-bottom: 100px !important;
-    }
-
-    .p-tb-md-100 {
-        padding-top: 100px !important;
-        padding-bottom: 100px !important;
-    }
-
-    .m-t-md-100 {
-        margin-top: 100px !important;
-    }
-
-    .m-b-md-100 {
-        margin-bottom: 100px !important;
-    }
-
-    .m-tb-md-100 {
-        margin-top: 100px !important;
-        margin-bottom: 100px !important;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .container.ctr-md-full {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .col, .col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
-    .col-sm, .col-sm-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
-    .col-md, .col-md-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
-    .col-lg, .col-lg-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12,
-    .col-xl, .col-xl-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .hth-md-auto {
-        height: auto !important;
-    }
-
-    .fgr-wh-fluid,
-    .fgr-wh-cover > img,
-    .fgr-wh-fluid > img {
-        width: auto;
-        height: 100%;
-    }
-
-    .fgr-hw-fluid,
-    .fgr-hw-cover > img,
-    .fgr-hw-fluid > img {
-        width: 100%;
-        height: auto;
-    }
-
-    [data-desktop] {
-        display: none !important;
-    }
-    
-    [data-mobile-block] {
-        display: block !important;
-    }
-    
-    [data-mobile-flex] {
-        display: flex !important;
-    }
-}
-
 /* My fonts */
 
 @font-face {
@@ -351,6 +425,20 @@ figure {
 }
 
 /* My styles */
+
+h1, h2, h3, h4, h5, h6,
+p,
+a, button {
+    font-family: 'Roboto-Regular';
+    color: #0a1832;
+}
+
+p,
+a, button {
+    font-size: 16px;
+}
+
+/* Main menu */
 
 #desktop_menu {
     transition: 800ms;
