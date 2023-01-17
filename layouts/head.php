@@ -18,9 +18,9 @@
 		{$dependencies.css}
 	</head>
 	<body class="pos-relative">
-		<header id="desktop_menu" class="wth-100 pos-fixed p-tb-20">
+		<header id="desktop_menu" class="wth-100 pos-fixed p-tb-20 trans-400 z-idx-98">
 			<div class="container">
-				<div class="row">
+				<div class="row no-gutters">
 					<div class="col-4 col-md-2">
 						<figure>
 							<a href="/">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" class="hth-100vh pos-fixed d-flex align-items-center justify-content-center p-20" data-mobile-flex>
+		<header id="mobile_menu" class="hth-100vh pos-fixed d-flex align-items-center justify-content-center p-20 bkg-white trans-400 z-idx-99" data-mobile-flex>
 			<a data-action="close_mobile_menu" class="pos-absolute"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">

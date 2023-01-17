@@ -256,23 +256,23 @@ figure {
 
 /* Overlays */
 
-.oly-99 {
+.z-idx-99 {
     z-index: 99;
 }
 
-.oly-98 {
+.z-idx-98 {
     z-index: 98;
 }
 
-.oly-97 {
+.z-idx-97 {
     z-index: 97;
 }
 
-.oly-96 {
+.z-idx-96 {
     z-index: 96;
 }
 
-.oly-95 {
+.z-idx-95 {
     z-index: 95;
 }
 
@@ -322,6 +322,24 @@ figure {
     margin-top: 5px !important;
     padding: 0px !important;
     font-size: 10px !important;
+}
+
+/* Transitions */
+
+.trans-200 {
+    transition: 200ms;
+}
+
+.trans-400 {
+    transition: 400ms;
+}
+
+.trans-600 {
+    transition: 600ms;
+}
+
+.trans-800 {
+    transition: 800ms;
 }
 
 /* Hidden on desktop and mobile */
@@ -419,31 +437,45 @@ figure {
 
 /* My fonts */
 
-@font-face {
+/* @font-face {
     font-family: 'Roboto-Regular';
     src: url("../fonts/Roboto-Regular.ttf");
-}
+} */
 
 /* My styles */
 
 h1, h2, h3, h4, h5, h6,
 p,
 a, button {
-    font-family: 'Roboto-Regular';
     color: #0a1832;
 }
 
 p,
 a, button {
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.bkg-white {
+    background-color: #fff;
+}
+
+.bkg-light {
+    
+}
+
+.bkg-soft {
+    
+}
+
+.bkg-hard {
+    
+}
+
+.bkg-dark {
+    
 }
 
 /* Main menu */
-
-#desktop_menu {
-    transition: 800ms;
-    z-index: 98;
-}
 
 #desktop_menu > div > div > div > figure > a > img:first-child {
     max-height: 50px;
@@ -461,9 +493,6 @@ a, button {
 #mobile_menu {
     width: 300px;
     right: -300px;
-    background-color: #fff;
-    transition: 400ms;
-    z-index: 99;
 }
 
 #mobile_menu > a {
