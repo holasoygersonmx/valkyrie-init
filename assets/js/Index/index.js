@@ -2,7 +2,7 @@
 
 $(document).ready(function()
 {
-    $('#home > div.owl-carousel').owlCarousel({
+    $('#home-carousel').owlCarousel({
         autoplay: true,
         autoplayTimeout: 2000,
         animateOut: 'fadeOut',
