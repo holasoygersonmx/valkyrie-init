@@ -59,7 +59,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                             </label>
                         </div>
                     </div>
-                    <div class="col-12 text-right">
+                    <div class="col-12 d-flex justify-content-end">
                         <button type="submit" class="btn btn-primary">{$lang.contact}</button>
                     </div>
                 </div>
