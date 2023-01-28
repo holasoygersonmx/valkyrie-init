@@ -1,5 +1,4 @@
 <?php defined('_EXEC') or die; ?>
-
         <footer class="p-tb-50">
             <div class="container">
                 <div class="row">
