@@ -27,7 +27,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <div class="container">
             <form name="contact">
                 <div class="row">
-                    <div class="col-12 m-b-md-20">
+                    <div class="col-12 m-b-10 m-b-md-20">
                         <div class="label">
                             <label>
                                 <h6 class="m-b-5">{$lang.fullname}</h6>
@@ -35,7 +35,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                             </label>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 m-b-md-20">
+                    <div class="col-12 col-md-6 m-b-10 m-b-md-20">
                         <div class="label">
                             <label>
                                 <h6 class="m-b-5">{$lang.email}</h6>
@@ -43,7 +43,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                             </label>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 m-b-md-20">
+                    <div class="col-12 col-md-6 m-b-10 m-b-md-20">
                         <div class="label">
                             <label>
                                 <h6 class="m-b-5">{$lang.phone}</h6>
@@ -51,7 +51,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                             </label>
                         </div>
                     </div>
-                    <div class="col-12 m-b-20">
+                    <div class="col-12 m-b-10 m-b-md-20">
                         <div class="label">
                             <label>
                                 <h6 class="m-b-5">{$lang.message}</h6>
@@ -59,7 +59,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                             </label>
                         </div>
                     </div>
-                    <div class="col-12 d-flex justify-content-end">
+                    <div class="col-12 d-flex justify-content-center justify-content-md-end">
                         <button type="submit" class="btn btn-primary">{$lang.contact}</button>
                     </div>
                 </div>

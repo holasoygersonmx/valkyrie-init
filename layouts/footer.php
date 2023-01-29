@@ -2,7 +2,7 @@
         <footer class="p-tb-50">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 m-b-20 m-b-md-0">
                         <p class="text-center text-md-left">Copyright © <strong><?php echo Configuration::$web_page; ?></strong> <br data-mobile-block> {$lang.website_development_by} <a href="https://codemonkey.com.mx" target="_blank">Code Monkey</a>.</p>
                     </div>
                     <div class="col-12 col-md-6 text-center text-md-right">

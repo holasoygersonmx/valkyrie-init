@@ -51,6 +51,11 @@ figure > a {
 
 /* Rows and cols */
 
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .row.no-perimeter > [class*="col-"]:first-child {
     padding-left: 0px !important;
 }
@@ -69,6 +74,17 @@ figure > a {
 }
 
 @media (max-width: 768px) {
+
+    .no-md-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .no-md-gutters > .col,
+    .no-md-gutters > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
 
     .col, .col-auto, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
     .col-sm, .col-sm-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,
@@ -247,6 +263,22 @@ figure > a {
     font-size: 60px;
 }
 
+.font-70 {
+    font-size: 70px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+.font-90 {
+    font-size: 90px;
+}
+
+.font-100 {
+    font-size: 100px;
+}
+
 .weight-100 {
     font-weight: 100;
 }
@@ -331,6 +363,22 @@ figure > a {
     
     .font-md-60 {
         font-size: 60px !important;
+    }
+
+    .font-md-70 {
+        font-size: 70px !important;
+    }
+
+    .font-md-80 {
+        font-size: 80px !important;
+    }
+
+    .font-md-90 {
+        font-size: 90px !important;
+    }
+
+    .font-md-100 {
+        font-size: 100px !important;
     }
 }
 
@@ -605,8 +653,8 @@ a, button {
 }
 
 #desktop_menu.down {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
     background-color: #fff;
 }
 

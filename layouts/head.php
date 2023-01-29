@@ -24,7 +24,7 @@
 						<figure>
 							<a href="/">
 								<img src="{$path.images}logotype_white.png" alt="Logotype" class="img-wth-fluid">
-								<img src="{$path.images}logotype_black.png" alt="Logotype" class="d-none img-wth-fluid">
+								<img src="{$path.images}logotype_black.png" alt="Logotype" class="d-none img-hth-fluid">
 							</a>
 						</figure>
 					</div>
@@ -35,9 +35,9 @@
 								<li class="m-r-20"><a href="#contact">{$lang.contact}</a></li>
 								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
 								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-								<li class="m-r-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
-								<li><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li>
+								<li><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+								<!-- <li class="m-r-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
+								<li><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li> -->
 							</ul>
 						</nav>
 					</div>
@@ -57,15 +57,15 @@
 				<ul class="d-flex align-items-center flex-column list-unstyled">
 					<li class="m-b-20"><a href="#home">{$lang.home}</a></li>
 					<li class="m-b-20"><a href="#contact">{$lang.contact}</a></li>
-					<li class="m-b-20">
+					<li>
 						<a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank" class="m-r-10"><i class="fa-brands fa-facebook-square"></i></a>
 						<a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank" class="m-lr-10"><i class="fa-brands fa-instagram"></i></a>
 						<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="m-l-10"><i class="fa-brands fa-whatsapp"></i></a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="?lang=es" class="m-r-10"><img src="{$path.images}mex.png" alt="ES Lang"></a>
 						<a href="?lang=en" class="m-l-10"><img src="{$path.images}usa.png" alt="EN Lang"></a>
-					</li>
+					</li> -->
 				</ul>
 			</nav>
 		</header>
