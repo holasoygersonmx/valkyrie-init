@@ -22,6 +22,8 @@ class Index_controller extends Controller
 
 				if (empty($_POST['email']))
 					array_push($errors, ['{$lang.email} {$lang.dont_leave_this_field_empty}']);
+				else if (Functions::validate_email($_POST['email']) == false)
+					array_push($errors, ['{$lang.email} {$lang.invalid_field}']);
 
 				if (empty($_POST['phone']))
 					array_push($errors, ['{$lang.phone} {$lang.dont_leave_this_field_empty}']);
