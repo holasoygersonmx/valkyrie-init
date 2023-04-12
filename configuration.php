@@ -302,7 +302,7 @@ class Configuration
 				'user' => '@mywebsite'
 			],
 			'whatsapp' => [
-				'url' => 'https://api.whatsapp.com/send?phone=+529980000000',
+				'url' => 'https://api.whatsapp.com/send?phone=529980000000',
 				'user' => '+52 (998) 000 00 00'
 			]
 		],

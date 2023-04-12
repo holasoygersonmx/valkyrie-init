@@ -16,4 +16,16 @@ class Functions
 
         return $check;
     }
+
+    public static function generate_random_string($option = 'allcase', $length = 8)
+    {
+        $security = new Security;
+
+        if ($option == 'allcase')
+            return $security->random_string($length);
+        else if ($option == 'uppercase')
+            return strtoupper($security->random_string($length));
+        else if ($option == 'lowercase')
+            return strtolower($security->random_string($length));
+    }
 }
