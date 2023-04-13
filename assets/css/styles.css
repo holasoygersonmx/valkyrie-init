@@ -49,6 +49,10 @@ figure > a {
     height: 100vh;
 }
 
+.min-hth-100vh {
+    min-height: 100vh;
+}
+
 /* Rows and cols */
 
 .row {
