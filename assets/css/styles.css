@@ -45,6 +45,26 @@ figure > a {
     height: auto;
 }
 
+.hth-50vh {
+    height: 50vh;
+}
+
+.hth-60vh {
+    height: 60vh;
+}
+
+.hth-70vh {
+    height: 70vh;
+}
+
+.hth-80vh {
+    height: 80vh;
+}
+
+.hth-90vh {
+    height: 90vh;
+}
+
 .hth-100vh {
     height: 100vh;
 }
