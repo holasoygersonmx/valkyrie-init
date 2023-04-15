@@ -23,8 +23,8 @@
 					<div class="col-4 col-md-2">
 						<figure>
 							<a href="/">
-								<img src="{$path.images}logotype_white.png" alt="Logotype" class="img-wth-fluid">
-								<img src="{$path.images}logotype_black.png" alt="Logotype" class="d-none img-hth-fluid">
+								<img src="{$path.images}logotype_white.png?v=1.0" alt="Logotype" class="img-wth-fluid">
+								<img src="{$path.images}logotype_black.png?v=1.0" alt="Logotype" class="d-none img-hth-fluid">
 							</a>
 						</figure>
 					</div>
@@ -36,8 +36,8 @@
 								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['facebook']['url']; ?>" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
 								<li class="m-r-20"><a href="<?php echo Configuration::$vars['rrss']['instagram']['url']; ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
 								<li><a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-								<!-- <li class="m-r-20"><a href="?lang=es"><img src="{$path.images}mex.png" alt="ES Lang"></a></li>
-								<li><a href="?lang=en"><img src="{$path.images}usa.png" alt="EN Lang"></a></li> -->
+								<!-- <li class="m-r-20"><a href="?lang=es"><img src="{$path.images}mex.png?v=1.0" alt="ES Lang"></a></li>
+								<li><a href="?lang=en"><img src="{$path.images}usa.png?v=1.0" alt="EN Lang"></a></li> -->
 							</ul>
 						</nav>
 					</div>
@@ -63,8 +63,8 @@
 						<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" target="_blank" class="m-l-10"><i class="fa-brands fa-whatsapp"></i></a>
 					</li>
 					<!-- <li>
-						<a href="?lang=es" class="m-r-10"><img src="{$path.images}mex.png" alt="ES Lang"></a>
-						<a href="?lang=en" class="m-l-10"><img src="{$path.images}usa.png" alt="EN Lang"></a>
+						<a href="?lang=es" class="m-r-10"><img src="{$path.images}mex.png?v=1.0" alt="ES Lang"></a>
+						<a href="?lang=en" class="m-l-10"><img src="{$path.images}usa.png?v=1.0" alt="EN Lang"></a>
 					</li> -->
 				</ul>
 			</nav>
