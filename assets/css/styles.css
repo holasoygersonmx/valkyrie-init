@@ -644,8 +644,12 @@ figure > a {
 
 /* Overflows */
 
-.yescroll {
+.yes-overflow {
     overflow: visible !important;
+}
+
+.no-overflow {
+    overflow: hidden !important;
 }
 
 /* Overlays */
