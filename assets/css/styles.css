@@ -25,6 +25,82 @@ figure > a {
 
 /* Widths and heights */
 
+.wth-5 {
+    width: 5%;
+}
+
+.wth-10 {
+    width: 10%;
+}
+
+.wth-15 {
+    width: 15%;
+}
+
+.wth-20 {
+    width: 20%;
+}
+
+.wth-25 {
+    width: 25%;
+}
+
+.wth-30 {
+    width: 30%;
+}
+
+.wth-35 {
+    width: 35%;
+}
+
+.wth-40 {
+    width: 40%;
+}
+
+.wth-45 {
+    width: 45%;
+}
+
+.wth-50 {
+    width: 50%;
+}
+
+.wth-55 {
+    width: 55%;
+}
+
+.wth-60 {
+    width: 60%;
+}
+
+.wth-65 {
+    width: 65%;
+}
+
+.wth-70 {
+    width: 70%;
+}
+
+.wth-75 {
+    width: 75%;
+}
+
+.wth-80 {
+    width: 80%;
+}
+
+.wth-85 {
+    width: 85%;
+}
+
+.wth-90 {
+    width: 90%;
+}
+
+.wth-95 {
+    width: 95%;
+}
+
 .wth-100 {
     width: 100%;
 }
@@ -398,6 +474,10 @@ figure > a {
 }
 
 /* Borders */
+
+.brd-0 {
+    border: 0px;
+}
 
 .brd-rad-20 {
     border-radius: 20px;
@@ -838,31 +918,6 @@ figure > a {
     src: url("../fonts/Roboto-Regular.ttf");
 } */
 
-/* My styles */
-
-h1, h2, h3, h4, h5, h6,
-p,
-a, button {
-    color: #0a1832;
-}
-
-p,
-a, button {
-    font-size: 14px;
-}
-
-.font-primary {}
-
-.font-secondary {}
-
-.bkg-light {}
-
-.bkg-soft {}
-
-.bkg-hard {}
-
-.bkg-dark {}
-
 /* Desktop and mobile menus */
 
 #desktop_menu > div > div > div > figure > a > img:first-child {
@@ -908,3 +963,32 @@ a, button {
         right: 0px;
     }
 }
+
+/* My styles */
+
+h1, h2, h3, h4, h5, h6,
+p,
+a, button {
+    color: #0a1832;
+}
+
+p,
+a, button {
+    font-size: 14px;
+}
+
+.font-primary {}
+
+.font-secondary {}
+
+.bkg-light {}
+
+.bkg-soft {}
+
+.bkg-hard {}
+
+.bkg-dark {}
+
+.text-soft {}
+
+.text-hard {}
