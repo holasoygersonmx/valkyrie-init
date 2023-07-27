@@ -12,7 +12,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
 ?>
 
 <main>
-    <section class="hth-100vh">
+    <section id="home" class="hth-100vh">
         <div id="home-carousel" class="owl-carousel owl-theme hth-100vh">
             <div class="item hth-100vh" style="background-color:#E91E63;"></div>
             <div class="item hth-100vh" style="background-color:#ec407a;"></div>
@@ -23,7 +23,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         </div>
     </section>
     <section id="map" class="hth-100vh" data-title="<?php echo Configuration::$web_page; ?>" data-lat="<?php echo Configuration::$vars['map']['lat']; ?>" data-lng="<?php echo Configuration::$vars['map']['lng']; ?>" data-zoom="18"></section>
-    <section class="p-t-50">
+    <section id="contact" class="p-t-50">
         <div class="container">
             <form name="contact">
                 <div class="row">
@@ -60,7 +60,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
                         </div>
                     </div>
                     <div class="col-12 d-flex justify-content-center justify-content-md-end">
-                        <button type="submit" class="btn btn-primary">{$lang.contact}</button>
+                        <button type="submit" class="btn btn-primary">{$lang.send_email}</button>
                     </div>
                 </div>
             </form>
