@@ -12,12 +12,12 @@
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="{$path.css}valkyrie.css?v=1.0" type="text/css" media="all" />
 		<link rel="stylesheet" href="{$path.css}styles.css?v=1.0" type="text/css" media="all" />
 		{$dependencies.css}
 	</head>
 	<body class="pos-relative">
-		<header id="desktop_menu" class="wth-100 pos-fixed p-tb-20 ttn-400 z-98">
+		<header id="desktop_menu" class="wth-100pr pos-fixed p-tb-20 ttn-400 z-98">
 			<div class="container">
 				<div class="row no-gutters">
 					<div class="col-4 col-md-2">
