@@ -10354,6 +10354,16 @@ figure > a {
     }
 }
 
+/* Animate */
+
+.animate__hidden {
+    opacity: 0 !important;
+}
+
+.animate__show {
+    opacity: 1 !important;
+}
+
 /* Hidden on desktop or mobile */
 
 [data-mobile-block],

@@ -14,9 +14,11 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="{$path.css}valkyrie.css?v=1.0" type="text/css" media="all" />
 		<link rel="stylesheet" href="{$path.css}styles.css?v=1.0" type="text/css" media="all" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 		{$dependencies.css}
 	</head>
 	<body class="pos-relative">
+		<a href="<?php echo Configuration::$vars['rrss']['whatsapp']['url']; ?>" class="pos-fixed abt-bottom-30 abt-right-30 z-97"><img src="{$path.images}whatsapp.png" alt="Whatsapp" class="m-r-10"><span class="p-20 brd-rad-20 bkg-white">{$lang.send_whatsapp}</span></a>
 		<header id="desktop_menu" class="wth-100pr pos-fixed p-tb-20 ttn-400 z-98">
 			<div class="container">
 				<div class="row no-gutters">
